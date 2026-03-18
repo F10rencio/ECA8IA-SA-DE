@@ -2,8 +2,8 @@
 
 ### 1. Identificação do Grupo
 * **Instituição:** Fundação Salvador Arena
-* **Curso:** [Engenharia de Controle e Automação]
-* **Grupo:** [Inserir Nome ou Número do Grupo]
+* **Curso:** Engenharia de Controle e Automação
+* **Grupo:** Grupo 8
 * **Integrantes:** * Gustavo Florencio Lima Simião- RA: [061230041]
     * [Leonardo Rodolfo Bortoluci] - RA: [062220014]
     * [Julia Rodrigues Lima] - RA: [062220026]
@@ -22,17 +22,19 @@ Selecione a trilha tecnológica do projeto (marque com um [x]):
 ### 3. Diagnóstico e Definição do Agente
 Nesta seção, descrevemos o cenário de atuação e a modelagem do agente inteligente.
 
-* **Contexto:** [Descrever o setor, ex: Indústria 4.0 ou Gestão de Energia].
-* **Problema:** [Explicar o gargalo ou falha que a IA ajudará a resolver].
-* **Impacto:** [Mencionar o ganho esperado, ex: redução de custos ou aumento de segurança].
+* **Contexto:**A Doença de Parkinson é uma doença neurológica progressiva que afeta principalmente o controle dos movimentos. Ela ocorre devido à degeneração de neurônios produtores de dopamina no cérebro.
+  
+* **Problema:** Devido à natureza não linear, dinâmica e incerta dos sistemas biomecânicos humanos, abordagens baseadas em controle clássico apresentam limitações significativas. A aplicação de técnicas de Inteligência Artificial, como Redes Neurais e Lógica Fuzzy, possibilita maior robustez, adaptabilidade e personalização, resultando em melhor desempenho funcional e qualidade de vida do paciente.
+  
+* **Impacto:** A aplicação de técnicas de Inteligência Artificial, como Redes Neurais e Lógica Fuzzy, possibilita maior robustez, adaptabilidade e personalização, resultando em melhor desempenho funcional e qualidade de vida do paciente..
 
 #### Modelagem PEAS (Agente Inteligente)
 | Componente | Descrição |
 | :--- | :--- |
-| **Performance (P)** | Critérios de sucesso (ex: precisão de acerto, kWh economizados). |
-| **Ambiente (E)** | Onde o agente opera (ex: armazém simulado, rede elétrica). |
-| **Atuadores (A)** | Como o agente age (ex: acionamento de motores, válvulas). |
-| **Sensores (S) ** | Como o agente percebe o ambiente (ex: câmeras, sensores de carga). |
+| **Performance (P)** | Para que uma solução inteligente voltada a pacientes com Doença de Parkinson seja considerada bem-sucedida, o agente deve perseguir metas objetivas relacionadas à redução de sintomas, melhoria funcional e segurança clínica. A principal meta é reduzir significativamente a amplitude e a frequência do tremor sem prejudicar o movimento voluntário. Isso significa que o sistema deve ser capaz de identificar corretamente o tremor e aplicar compensação ativa apenas quando necessário. Um critério de sucesso mensurável seria, por exemplo, uma redução percentual consistente da amplitude do tremor medida por sensores inerciais, mantendo a fluidez do movimento intencional.
+| **Ambiente (E)** | O agente opera na Doença de Parkison
+| **Atuadores (A)** |atuadores eletromecânicos, encoders e sensores de torque ou corrente, como motores ou servomotores acoplados a uma órtese ou exoesqueleto
+| **Sensores (S) ** | Sensores Eletromiografia (EMG) de superfície - Permite diferenciar movimento voluntário de tremor,Unidade de Medição Inercial (IMU - acelerômetro + giroscópio) - Permite identificar padrão típico do tremor e medir sua intensidade, Giroscópio da IMU ou encoder no atuador - Necessário para aplicar compensação proporcional e estável e Sensor de torque ou corrente do motor - Garante controle seguro e evita sobrecompensação.
 
 ---
 
