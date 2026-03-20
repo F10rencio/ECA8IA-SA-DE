@@ -4,7 +4,8 @@
 * **Instituição:** Fundação Salvador Arena
 * **Curso:** Engenharia de Controle e Automação
 * **Grupo:** Grupo 8
-* **Integrantes:** * Gustavo Florencio Lima Simião- RA: [061230041]
+* **Integrantes:**
+*   * Gustavo Florencio Lima Simião- RA: [061230041]
     * [Leonardo Rodolfo Bortoluci] - RA: [062220014]
     * [Julia Rodrigues Lima] - RA: [062220026]
 
