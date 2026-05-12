@@ -10,6 +10,8 @@
     * [Julia Rodrigues Lima] - RA: [062220026]
 
 ---
+### 🎥 Demonstração do Projeto
+**[Assista ao Pitch e Demonstração da Solução ](https://youtu.be/9pO0D3D_aMs)**
 
 ### 2. Área Problema Selecionada
 Selecione a trilha tecnológica do projeto (marque com um [x]):
@@ -57,7 +59,28 @@ O fluxo de processamento dos dados segue estas etapas:
 
 ---
 
-### 6. Estrutura do Repositório
+### 6. Evidências Visuais e Desempenho
+*Arquivos armazenados na pasta `/assets/images`.*
+
+**Imagem 1: [Interface de Logs do Sistema de Monitoramento]**
+[Demonstra a execução em tempo real do sistema, exibindo a identificação de biomarcadores (frequência de tremor e congelamento de marcha), o cálculo da probabilidade de intervenção e a sugestão clínica gerada pela IA.]
+![Logs do Sistema](assets/images/Captura de tela 2026-05-11 094359.png).
+
+**Imagem 2: [Modelagem da rede Neural]**
+[Demonstra o desempenho do modelo de Deep Learning na classificação dos estados do paciente, apresentando a precisão da rede em distinguir entre movimentos normais, tremores e episódios de "freezing".
+![Rede Neural](assets/images/Captura de tela 2026-05-11 100757.png).
+
+**Imagem 3: [Predição e Análise interpretativa]**
+O gráfico demonstra a modelagem dos conjuntos nebulosos (Fuzzy) para as variáveis de entrada e saída do sistema. Ele define os níveis de intensidade (como "baixo", "médio" e "alto") para o tremor detectado e o torque de compensação, permitindo que o algoritmo tome decisões graduais e precisas em vez de apenas "ligado/desligado".
+![Visualização da Lógica Fuzzy](assets/images/Captura de tela 2026-05-11 104201.png).
+
+**Imagem 4: [Resposta do Gemini a Predição]**
+[Demonstra a resposta do Gemini]
+![Resposta Gemini](assets/images/Captura de tela 2026-05-11 104201.png).
+
+---
+
+### 7. Estrutura do Repositório
 Organização simplificada para o Milestone 1:
 * `/data`: Arquivos de dados originais (raw) e tratados (processed).
 * `/notebooks`: Experimentos iniciais e análise exploratória.
@@ -67,9 +90,20 @@ Organização simplificada para o Milestone 1:
 
 ---
 
-### 7. Instruções para Execução
+### 8. Instruções para Execução
 Para reproduzir o ambiente e testar o diagnóstico:
-1. Clone este repositório.
-2. Instale as dependências:
+1. Clone este repositório `git clone [https://github.com/F10rencio/ECA8IA-SA-DE].
+2. Instale as dependências:   
    ```bash
-   pip install -r requirements.txt
+      pip install -r requirements.txt
+   
+### 🤖 9. Apêndice de IA
+
+Relato sobre o suporte de ferramentas de Inteligência Artificial Generativa no desenvolvimento:
+
+* **Ferramentas:** [Ex: Gemini, Google IA Studio].
+* **Aplicação:** Apoio na estruturação do código, revisão textual, sugestão de métricas e organização do pipeline de ETL.
+* **Validação:** Todos os resultados, métricas de desempenho e interpretações estatísticas foram conferidos e validados tecnicamente pelo grupo.
+
+---
+© 2026 - Projeto de Inteligência Artificial - Faculdade Engenheiro Salvador Arena  
