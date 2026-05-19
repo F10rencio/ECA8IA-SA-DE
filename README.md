@@ -6,7 +6,7 @@
 ![Gemini API](https://img.shields.io/badge/Gemini%20API-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
 
 ### 🎥 Demonstração do Projeto
-**[Assista ao Pitch e Demonstração da Solução (2-3 min)](https://youtu.be/9pO0D3D_aMs?si=YkmkrThsVTnbqILd)**
+**[Assista ao Pitch e Demonstração da Solução (2-3 min)](https://youtu.be/tAnCAdzSLzg)**
 
 ### 1. Identificação do Grupo
 
